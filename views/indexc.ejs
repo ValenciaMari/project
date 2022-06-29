@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stylec.css">
+    <link rel="stylesheet" href="css/stylec1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function sonar() {
+            console.log(555);
+            let sound = new Audio();
+            sound.src = "a.mp3";
+            sound.play()
+            console.log(sound);
+        }
+    </script>
+    <header>
+        <nav>
+            <div class="box1">
+                <a href="#">inicio</a>
+                <a href="#">rutas</a>
+                <a href="">opciones</a>
+                <a href="#">cerrar sesión</a>
+            </div>
+            <div class="box2">
+                <a href="#"> <%= name %></a> 
+                <img src="https://w7.pngwing.com/pngs/529/816/png-transparent-computer-icons-user-profile-avatar-heroes-monochrome-black.png"
+                    alt="" width="50px">
+            </div>
+
+        </nav>
+    </header>
+
+
+    <main>
+        <form action="/correo" method="get">
+        <div class="container-buttons" onclick="sonar()">
+            <button href="#" class="three">
+               <img src="https://res.cloudinary.com/click-alert-fem/image/upload/v1656503386/bx-bell_zqxfve.svg" alt="" srcset="">
+           
+            </button>
+</form>
+
+
+        </div>
+    </main>
+    <footer id="contacto">
+        <div class="contenedor footer-content">
+            <div class="contact-us">
+                <h2 class="brand">click alert fem</h2>
+                <p>provedores de seguridad a un click</p>
+            </div>
+            <div class="social-media">
+                <a href="./" class="social-media-icon">
+                    <i class='bx bxl-gmail'></i>
+                </a>
+    
+                <a href="./" class="social-media-icon">
+                    <i class='bx bxl-github'></i>
+                </a>
+    
+                <a href="./" class="social-media-icon">
+                    <i class='bx bxl-slack'></i>
+                </a>
+            </div>
+        </div>
+    
+    
+    </footer>
+    
+    <!-- <script>
+       const transporter = nodemailer.createTransport({
+        host: 'smtp.gmail.com',
+        port: 587,
+        auth: {
+            user: email,
+            pass: 'xcvjrfbcpbtcsznd'
+        }
+    });
+
+    // send email
+    transporter.sendMail({
+        from: 'alertfemc@gmail.com',
+        to: email,
+        subject: 'Test Email Subjects',
+        html: '<h1>REGRISTRO EXITOSO</h1><h2>GRACIAS POR EXISTIR 737</H2><img src="https://res.cloudinary.com/click-alert-fem/image/upload/v1654792461/samples/logos/LOGOO_tvefoj.jpg">'
+    }).then((res) => {
+        console.log(res);
+    }).catch((err) => {
+        console.log(err);
+    });
+
+
+    </script> -->
+    <!-- <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script> -->
+</body>
+
+</html>
